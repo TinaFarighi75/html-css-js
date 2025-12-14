@@ -23,7 +23,7 @@ body {
     overflow: hidden;
     position: relative;
   }
-  /* Screens */
+  /* Screen */
 .screen {
     display: none;
     padding: 2rem;
