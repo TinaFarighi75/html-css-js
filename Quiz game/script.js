@@ -103,3 +103,36 @@ const quizQuestions = [
     answersContainer.appendChild(button);
   });
   };
+  
+  function selectAnswer(event) {
+    if (answersDisabled) return;
+  
+    answersDisabled = true;
+  
+    const selectedButton = event.target;
+    const isCorrect = selectedButton.dataset.correct === "true";
+  
+    Array.from(answersContainer.children).forEach((button) => {
+      if (button.dataset.correct === "true") {
+        button.classList.add("correct");
+      } else if (button === selectedButton) {
+        button.classList.add("incorrect");
+      }
+    });
+  
+    if (isCorrect) {
+      score++;
+      scoreSpan.textContent = score;
+    }
+  
+    setTimeout(() => {
+      currentQuestionIndex++;
+
+      if (currentQuestionIndex < quizQuestions.length) {
+        showQuestion();
+      } else {
+        showResults();
+      }
+    }, 1000);
+  }
+  
