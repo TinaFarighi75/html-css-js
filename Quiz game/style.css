@@ -29,7 +29,16 @@ body {
     padding: 2rem;
     text-align: center;
   }
-  
-  .screen.active {
-    display: block;
+
+/*Start Screen*/
+
+#start-screen h1 {
+    color: #e86a33;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+  }
+  #start-screen p {
+    color: #666;
+    margin-bottom: 30px;
+    font-size: 1.1rem;
   }
