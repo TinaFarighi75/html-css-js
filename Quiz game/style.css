@@ -104,7 +104,11 @@ body {
     transition: width 0.3s ease;
   }
   
+<<<<<<< HEAD
   /* Result screen */
+=======
+  /* RESULT SCREEN */
+>>>>>>> 09e5703 (all style of quize game project)
   
   #result-screen h1 {
     color: #e86a33;
@@ -144,10 +148,11 @@ body {
   button:hover {
     background-color: #d45b28;
   }
-  
+
   /* responsive design */
+
   @media (max-width: 500px) {
-    /* when we decrese the width of page */
+    /* when we hit 500px and below, implement the styles below */
   
     .screen {
       padding: 1rem;
