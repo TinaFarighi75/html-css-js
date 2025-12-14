@@ -104,12 +104,6 @@ body {
     transition: width 0.3s ease;
   }
   
-<<<<<<< HEAD
-  /* Result screen */
-=======
-  /* RESULT SCREEN */
->>>>>>> 09e5703 (all style of quize game project)
-  
   #result-screen h1 {
     color: #e86a33;
     margin-bottom: 30px;
