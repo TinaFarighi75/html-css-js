@@ -104,7 +104,7 @@ body {
     transition: width 0.3s ease;
   }
   
-  /* RESULT SCREEN */
+  /* Result screen */
   
   #result-screen h1 {
     color: #e86a33;
@@ -145,9 +145,9 @@ body {
     background-color: #d45b28;
   }
   
-  /* RESPONSIVE DESIGN */
+  /* responsive design */
   @media (max-width: 500px) {
-    /* when we hit 500px and below, implement the styles below */
+    /* when we decrese the width of page */
   
     .screen {
       padding: 1rem;
